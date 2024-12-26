@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom"; 
 import axios from 'axios';
-import './Signup.css';  
+import './Style.css';  
 import { useNavigate } from "react-router-dom";
 import Alert from '@mui/material/Alert';
 
@@ -73,7 +73,7 @@ function Login() {
                     </button>
                 </form>
                 <p className="msg">Don't have an Account?</p>
-                <Link to="/signup" className="btn btn2 btn-default border w-100 rounded-0 text-decoration-none">
+                <Link to="/register" className="btn btn2 btn-default border w-100 rounded-0 text-decoration-none">
                     Sign Up
                 </Link>
             </div>

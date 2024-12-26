@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom"; 
 import axios from 'axios';
-import './Signup.css';  
+import './Style.css';  
 import { useNavigate } from "react-router-dom";
 
 function SignUp() {
@@ -20,9 +20,14 @@ function SignUp() {
       axios.post("http://localhost:3001/register", { name, email, password })
         .then(result => {
           console.log("Server Response:", result);
+          alert("Successfully Registered")
           navigate('/login'); 
+          alert("Now Login with your account")
+
         })
         .catch(err => {
+            alert("Some issues happened")
+
           console.error("Error:", err);
         });
     };

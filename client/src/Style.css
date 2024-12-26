@@ -1,10 +1,12 @@
+
 .heading{
     display: flex;
     justify-content: center;
     align-items: center;
     font-style: italic;
-}
+    color: black;
 
+}
 .lab{
     font-size: large;
     margin-bottom: 5px;
