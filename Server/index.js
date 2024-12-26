@@ -51,5 +51,5 @@ app.post('/register', async (req, res) => {
 
 
 app.listen(3001, () => {
-  console.log("Server is running on http://localhost:3001");
+  console.log("The Server is running on http://localhost:3001");
 });
