@@ -1,0 +1,30 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+}
+
+.lab{
+    font-size: large;
+    margin-bottom: 5px;
+}
+.msg{
+    font-weight: bold;
+    text-align: center;
+}
+.btn{
+    font-weight: bold;
+    margin: 5px;
+}
+.inp{
+    font-weight: bold;
+    height: 60px;
+}
+.btn2{
+    font-weight: bold;
+    margin: 5px;
+}
+.btn2:hover{
+    background-color: rgb(216, 216, 216);
+}
